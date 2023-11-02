@@ -21,9 +21,9 @@ export default function Home({ searchParams }: HomeProps) {
   return (
     <>
       {/* This never shows */}
-      <h1>{string}</h1>
+      <p>{string}</p>
       {/* State only shows when present in url, eg. ?state=client */}
-      <h1>Server side parsed: {state}</h1>
+      <p>Server side parsed: {state}</p>
       <QueryState />
     </>
   );
